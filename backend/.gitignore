@@ -1,0 +1,7 @@
+# Ignore node_modules folder
+/node_modules
+
+# Uncomment to ignore temp folder at root
+/temp
+
+node_modules/
