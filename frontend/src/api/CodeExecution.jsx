@@ -2,7 +2,7 @@ import axios from "axios";
 
 const executeCode = async (language, version, code, input = "") => {
   try {
-    const response = await axios.post("http://localhost:5000/", {
+    const response = await axios.post("https://react-code-editor-server-repo-production.up.railway.app/", {
       language,
       version,
       code,
